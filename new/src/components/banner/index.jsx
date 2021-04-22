@@ -1,10 +1,11 @@
 import React from 'react'
+import'./style.scss'
 
 class Banner extends React.Component {
     render() {
         return (
             <section className="banner">
-                <div className="bannner__content">
+                <div className="banner__content">
                     <div className="banner__content-title wrap">
                         <h1 className="wrap__title">Как управлять людьми</h1>
                         <h3 className="wrap__description">и не сойти с ума в 2021</h3>             
