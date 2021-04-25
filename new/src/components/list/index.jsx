@@ -37,15 +37,6 @@ class List extends React.Component {
                         <img src={Image} alt="" className="information__img"/>
                     </div>
                     <img src={Pen} alt="" className="pen"/>
-                    <div  className="one__triangle">
-                        <Triangle__one />
-                    </div>
-                    <div className="two__triangle">
-                        <Triangle__two />
-                    </div>
-                    <div className="three__triangle">
-                        <Triangle__thee />
-                    </div>
                     <div className="list__item-content">
                         <p>Большая часть моего рабочего дня проходит в Zoom и Google Meet. У Лайфхакера есть офис в Ульяновске, два года работала редакция в Москве, но в карантин мы решили её закрыть. Открывать не торопимся, ждём конца пандемии. Поэтому сейчас команда Лайфхакера — это около сотни человек, работающих из разных городов.</p>
                         <p>На прошлой неделе во время тестирования ноутбука <a href="" className="link">Dell XPS 13 9310</a> я провёл два десятка звонков: собеседования, планёрки, обсуждение стратегий. Веб-камера с четырьмя линзами передавала чёткую и яркую картинку. Мне понравилась технология шумоподавления — когда в помещении не хватает света, объектив ноутбука фиксирует это и повышает качество видео.</p>
@@ -82,8 +73,8 @@ class List extends React.Component {
                 <li className="list__item">
                     <img src={Flight} alt="" className="list__item-work"/>
                     <div className="list__item-information information">
-                        <p className="information__text">14:00</p>
-                        <h2 className="information__title">РАСЧЁТЫ И ФИНАНСЫ</h2>
+                        <p className="information__text">16:00</p>
+                        <h2 className="information__title">ЗАПИСЬ ПОКАСТА</h2>
                         <img src={Podcast} alt="" className="information__img"/>
                     </div>
                     <img src={Microphone} alt="" className="microphone"/>
@@ -143,4 +134,6 @@ class List extends React.Component {
     }
 }
 
+//в list__item-information information p и h2 завернуть в одну обёртку и её уже позиционировать 
+// link сделать link__text
   export default List;

@@ -37,4 +37,5 @@ class Header extends React.Component {
     }
 }
 
+// сделать социальные сети пнг круг в стилях
   export default Header;

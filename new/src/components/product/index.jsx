@@ -1,4 +1,17 @@
 import React from 'react'
+import './style.scss'
+import Laptop from '../../images/laptop.png'
+import Building from '../../images/building.png'
+import Waves from '../../images/waves.jpg'
+import Yellow from '../../images/yellow.png'
+import Blue from '../../images/blue.png'
+import Detail from '../../images/detail.png'
+import Sun from '../../images/sun.png'
+import Light__small from '../../images/light__small.png'
+import Light__big from '../../images/light__bit.png'
+import Water from '../../images/water.png'
+
+
 
 class Product extends React.Component {
     render() {
@@ -16,30 +29,36 @@ class Product extends React.Component {
                             Выбрать ноутбук
                         </button>
                     </div>
-                    <div className="product__content-img">
-                        <img src="" alt="" className="laptop"/>
-                        <img src="" alt="" className="laptop-left"/>
-                        <img src="" alt="" className="laptop-right"/>
-                    </div>
+                </div>
+                <div className="product__img">
+                    <img src={Laptop} alt="" className="laptop"/>
                 </div>
                 <div className="product__building">
-                    <img src="" alt="" className="building"/>
+                    <img src={Building} alt="" className="building"/>
                 </div>
                 <div className="product__picture">
-                    <img src="" alt="" className="picture"/>
+                    <img src={Waves} alt="" className="picture"/>
                 </div>
                 <div className="product__sun">
-                    <img src="" alt="" className="sun"/>
+                    <img src={Sun} alt="" className="sun"/>
+                    <img src={Light__small} alt="" className="light__small"/>
+                    <img src={Light__big} alt="" className="light__big"/>
                 </div>
                 <div className="product__detail">
-                    <img src="" alt="" className="detail"/>
+                    <img src={Detail} alt="" className="detail"/>
                 </div>
                 <div className="product__water">
-                    <img src="" alt="" className="water"/>
+                    {/* <img src={Yellow} alt="" className="yellow"/> */}
+                    {/* <img src={Blue} alt="" className="blue"/> */}
+                    <img src={Water} alt="" className="yellow"/>
                 </div>
             </section>
         )
     }
 }
+//ноутбуки сделать тремя разными картиками 
+//object fit: cover для заполнения
+//кнопку переднелать в ссылку
+//вынести общий абсолют у img
 
   export default Product;

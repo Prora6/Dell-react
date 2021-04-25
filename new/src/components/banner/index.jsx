@@ -38,5 +38,5 @@ class Banner extends React.Component {
         )
     }
 }
-
-  export default Banner;
+//переименовать классы отрезать "контент" изаменить на общее понятие 
+export default Banner;

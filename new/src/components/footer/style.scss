@@ -1,0 +1,26 @@
+.footer {
+    background: #B3DAF8;
+    &__content {
+        display: flex;
+        justify-content: center;
+        &-link {
+            
+            &:first-child {
+                padding-right: 4px;
+
+            }
+            display: flex;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            color: #0076CE;
+        }
+        &-text {
+            display: flex;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+}

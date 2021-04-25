@@ -1,0 +1,100 @@
+.product {
+    position: relative;
+    height: 1256px;
+    background: #B3DAF8;
+    overflow: hidden;
+    &__content {
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 56px;
+        &-text {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            margin-bottom: 32px;
+            p:not(:last-child) {
+                margin-bottom: 24px;
+            }
+        }
+        &-button {
+            display: flex;
+            justify-content: center;
+            .button {
+                background: #0076CE;
+                border-radius: 8px;
+                border: none;
+                padding: 13px 0;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                width: 209px;
+                height: 50px;
+                cursor: pointer;
+            }
+        }
+    }
+    &__img {
+        position: absolute;
+        top: 617px;
+        left: 50%;
+        transform: translate(-50%,0px);
+        .laptop{
+
+        }
+    }
+    &__building {
+        position: absolute;
+        top: 70px;
+        left: 490px;
+        .building {
+
+        }
+    }
+    &__picture {
+        position: absolute;
+        top: 362px;
+        right: 250px;
+        .picture {
+
+        }
+    }
+    &__sun {
+        position: absolute;
+        top: 312px;
+        left: 200px;
+        .sun {
+
+        }
+        .light__small {
+            position: absolute;
+            top: 106px;
+            left: 89px;
+        }
+        .light__big {
+            position: absolute;
+            top: 168px;
+            left: 147px;
+        }
+    }
+    &__detail {
+        position: absolute;
+        top: 1124px;
+        left: 438px;
+        .detail{
+
+        }
+    }
+    &__water {
+        position: absolute;
+        right: 215px;
+        bottom: -231px;
+        .yellow {
+
+        }
+
+    }
+
+}

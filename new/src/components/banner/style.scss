@@ -29,44 +29,46 @@
             top: 0px;
         }
         .img {
-            
-            &__man {
+            img {
                 position: absolute;
+            }
+            &__man {
+        
                 width: 916px;
                 height: 576px;
             }
             &__hi {
                 width: 339.5px;
                 height: 86.5px;
-                position: absolute;
+               
                 left: 18px;
                 top: 52px;
             }
             &__early {
                 width: 362.5px;
                 height: 86.5px;
-                position: absolute;
+              
                 top: 206px;
                 left: 83px;
             }
             &__cash {
                 width: 100px;
                 height: 86.5px;
-                position: absolute;
+             
                 top: 307px;
                 right: 179px;
             }
             &__work {
                 width: 257px;
                 height: 86.5px;
-                position: absolute;
+             
                 top: 360px;
                 left: 108px;
             }
             &__thanks {
                 width: 280px;
                 height: 86.5px;
-                position: absolute;
+               
                 top: 447px;
                 right: 179px;
             }
