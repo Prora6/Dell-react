@@ -1,3 +1,91 @@
 .banner {
     background-color: #B3DAF8;
+    height: 650px;
+    &__content {
+        padding-top: 160px;
+        max-width: 1040px;
+        width: 100%;
+        margin: 0 auto;
+        &-title{
+            max-width: 598px;
+        }
+        .wrap {
+            &__title {
+                font-weight: 900;
+                font-size: 80px;
+                line-height: 82px;
+                color: #0076CE;
+            }
+            &__description {
+                font-size: 32px;
+                line-height: 34px;
+                color: #0076CE;
+            }
+        }
+        &-img{
+            position: absolute;
+            width: 917px;
+            height: 576px;
+            top: 0px;
+        }
+        .img {
+            
+            &__man {
+                position: absolute;
+                width: 916px;
+                height: 576px;
+            }
+            &__hi {
+                width: 339.5px;
+                height: 86.5px;
+                position: absolute;
+                left: 18px;
+                top: 52px;
+            }
+            &__early {
+                width: 362.5px;
+                height: 86.5px;
+                position: absolute;
+                top: 206px;
+                left: 83px;
+            }
+            &__cash {
+                width: 100px;
+                height: 86.5px;
+                position: absolute;
+                top: 307px;
+                right: 179px;
+            }
+            &__work {
+                width: 257px;
+                height: 86.5px;
+                position: absolute;
+                top: 360px;
+                left: 108px;
+            }
+            &__thanks {
+                width: 280px;
+                height: 86.5px;
+                position: absolute;
+                top: 447px;
+                right: 179px;
+            }
+        }
+        &-folders {
+            width: 118px;
+            height: 100px;
+        }
+        &-clock {
+            width: 39px;
+            height: 61px;
+        }
+        &-cursor {
+            width: 40px;
+            height: 55px;
+        }
+        &-picture {
+            width: 434px;
+            height: 80px;
+        }
+    }
 }

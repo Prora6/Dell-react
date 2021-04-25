@@ -1,0 +1,28 @@
+.description {
+    position: relative;
+    &__content {
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 186px;
+        padding: 186px 0 188px 0;
+        &-text {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    &__img-clip {
+        width: 207px;
+        height: 341px;
+        position: absolute;
+        left: 305px;
+        top: 86px;
+    }
+    &__img-notebook {
+        width: 461px;
+        height: 360px;
+        position: absolute;
+        top: 72px;
+        right: 139px;
+    }
+}

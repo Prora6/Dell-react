@@ -1,0 +1,217 @@
+.list {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    &__item {
+        position: relative;
+        &-information {
+            max-width: 600px;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+        .information {
+            position: relative;
+            &__text {
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 48px;
+                letter-spacing: 0.02em;
+                color: #0076CE;
+                position: absolute;
+                top: 4px;
+                left: -44px;
+            }
+            &__title {
+                font-weight: 900;
+                font-size: 56px;
+                line-height: 58px;
+                color: #0076CE;
+                position: absolute;
+                top: 62px;
+                left: -44px;
+                width: 450px;
+            }
+            &__img{
+                width: 600px;
+            }
+        }
+        &-content {
+            max-width: 600px;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #444444;
+            margin: 0 auto;
+                p:not(:last-child){
+                    margin-bottom: 24px;
+                }
+        }
+
+
+
+        &:first-child {
+            .list__item-ticker {
+                width: 100%;
+                height: 62px;
+            }
+            .list__item-information {
+                margin-top: 85px;
+            }
+            .pen {
+                position: absolute;
+                top: 570px;
+                left: 412px;
+            }
+            .one__triangle {
+                opacity: 0.1;
+                position: absolute;
+                top: 476px;
+                right: 412px;
+            }
+            .two__triangle {
+                opacity: 0.1;
+                position: absolute;
+                top: 872px;
+                right: 400px;
+            }
+            .three__triangle {
+                opacity: 0.1;
+                position: absolute;
+                top: 312px;
+                left: 400px;
+            }
+            .list__item-content {
+                margin-bottom: 40px;
+            }
+        }
+
+
+
+
+        &:nth-child(2) {
+            margin-bottom: 64px;
+           .list__item-laptops {
+            width: 1277px;
+            height: 254px;
+           }
+            .list__item-information {
+                margin-top: 40px;
+            }
+            .mint {
+                position: absolute;
+                top: 680px;
+                right: -90px;
+            }
+
+        }
+
+
+
+
+        &:nth-child(3) {
+            margin-bottom: 40px;
+           .list__item-work {
+                width: 1923px;
+                height: 835px;
+           }
+            .list__item-information {
+                margin-top: 90px;
+            }
+            .wallet {
+                position: absolute;
+                top: 1509px;
+                left: -122px;
+
+            }
+        }
+
+
+
+        &:nth-child(4) {
+            margin-bottom: 46px;
+           .list__item-work {
+                width: 224px;
+                height: 154px;
+           }
+            .list__item-information {
+                margin-top: 82px;
+            }
+            .microphone {
+                position: absolute;
+                top: 764px;
+                right: -102px;
+
+            }
+            .information {
+                &__img {
+                    background: #B3DAF8;
+                }
+            }
+        }
+
+
+        &:nth-child(5) {
+            margin-bottom: 70px;
+           .list__item-work {
+                width: 1920px;
+                height: 830px;
+           }
+            .list__item-information {
+                margin-top: 88px;
+            }
+            .note {
+                position: absolute;
+                top: 1270px;
+                left: -90px;
+
+            }
+        }
+
+
+
+
+        &:nth-child(6) {
+            margin-bottom: 64px;
+           .list__item-work {
+               display: flex;
+               justify-content: center;
+               .computer{
+                    width: 284px;
+                    height: 191px;
+               }
+                
+           }
+            .list__item-information {
+                margin-top: 55px;
+            }
+            .note {
+                position: absolute;
+                top: 1270px;
+                left: -90px;
+
+            }
+        }
+
+
+
+        &:nth-child(7) {
+            margin-bottom: 88px;
+            .list__item-work {
+                width: 1920px;
+                height: 827.84px;
+            }
+            .list__item-information {
+                 margin-top: 88px;
+             }
+            .tickets {
+                 position: absolute;
+                 top: 1540px;
+                 left: -152px;
+ 
+            }
+        }
+
+
+
+    }
+}
