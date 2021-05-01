@@ -1,5 +1,4 @@
 .banner {
-    display: none;
     background-color: #B3DAF8;
     height: 650px;
     position: relative;
@@ -104,6 +103,24 @@
             &-reflection {
                 display: none;
             }
+            &-sandy {
+                width: 38.55px;
+                height: 41.53px;
+                left: 762px;
+                top: 132px;
+            }
+            &-money {
+                display: none;
+            }
+            &-mending {
+                display: none;
+            }
+            &-please {
+                display: none;
+            }
+        }
+        &-social {
+            display: none;
         }
     }
 }
@@ -114,6 +131,7 @@
     .banner {
         &__content {
             max-width: 786px;
+            padding-top: 150px;
             .information {
                 &__description {
                     width: 302px;
@@ -147,6 +165,9 @@
                 &-clock {
                     display: none;
                 }
+                &-sandy {
+                    display: none;
+                }
             }
         }
     }
@@ -157,7 +178,7 @@
         height: 1022px;
         &__content {
             max-width: 624px;
-            padding-top: 48px;
+            padding-top: 100px;
             .information {
                 &__description {
                     width: 404px;
@@ -181,7 +202,162 @@
                 &-reflection {
                     display: none;
                 }
+                &-cash {
+                    display: block;
+                    top: 490px;
+                    left: 434px;
+                }
+                &-early {
+                    display: block;            
+                    top: 658px;
+                    left: -162px;
+                }
+                &-picture {
+                    display: block;
+                    top: 943px;
+                    left: -394px;
+                }
+                &-cursor {
+                    display: block;
+                    top: 915px;
+                    left: -120px;
+                }
+                &-folders {
+                    display: block;
+                    top: 202px;
+                    left: 330px;
+                }
+                &-clock {
+                    display: block;
+                    top: 17px;
+                    left: 262px;
+                }
+                &-sandy {
+                    top: 462px;
+                    display: block;
+                    left: 187px;
+                }
             }
         }
     }
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        height: 670px;
+        &__content {
+            padding-top: 28px;
+            &-information{
+                max-width: 288px;
+                margin: 0 auto;
+            }
+            .information {
+                &__title {
+                    font-size: 48px;
+                    line-height: 50px;
+                }
+                &__description {
+                    font-size: 24px;
+                    line-height: 26px;
+                    width: 288px;
+                }
+            }
+            .banner__img{
+                position: absolute;
+                width: 500px;
+                height: 650px;
+                top: 0px;
+                left: 50%;
+                transform: translate(-50%, 0);
+    
+                img {
+                    position: absolute;
+                }
+    
+                &-man {
+                    width: 534.88px;
+                    height: 355.76px;
+                    top: 314px;
+                    left: 0px;
+                }
+                &-hi {
+                    display: none;
+                }
+                &-early {
+                    display: none;
+                }
+                &-cash {
+                    display: none;
+                }
+                &-work {
+                    display: none;
+                }
+                &-thanks {
+                    display: none;
+                }
+                &-folders {
+                    width: 53.64px;
+                    height: 45px;
+                    top: 0px;
+                    left: 262px;
+                }
+                &-cursor {
+                    top: 619px;
+                    left: 122px;
+                    width: 22px;
+                    height: 30px;
+                }
+                &-picture {
+                    width: 434px;
+                    height: 80px;
+                    top: 569px;
+                    left: -498px;
+                }
+                &-reflection {
+                    display: none;
+                }
+                &-sandy {
+                    left: 352px;
+                    top: 243px;
+                    width: 36.44px;
+                    height: 32.54px;
+                }
+                &-picture {
+                    display: none;
+                }
+                &-money {
+                    display: block;
+                    top: 339px;
+                    left: 354px;
+                }
+                &-mending {
+                    display: block;
+                    top: 362px;
+                    left: 114px;
+                }
+                &-please {
+                    display: block;              
+                    top: 470px;
+                    left: 110px;
+                }
+                &-clock {
+                    display: none;
+
+                }
+            }
+            &-social {
+                display: flex;
+                max-width: 288px;
+                margin: 0 auto;
+                margin-top: 16px;
+                .link__wrap {
+                    display: flex;
+                    .link:not(:last-child) {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
 }

@@ -7,7 +7,6 @@
         max-width: 1040px;
         width: 100%;
         margin: 0 auto;
-
         .header__social {
             &-link:not(:last-child) {
                 margin-right: 10px;
@@ -40,9 +39,6 @@
                 display: none;
             }
             .header__logo {
-                .header__logo-link {
-
-                }
                 .logo {
                     width: 84.44px;
                         height: 16px;
