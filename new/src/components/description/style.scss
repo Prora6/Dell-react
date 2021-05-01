@@ -1,10 +1,9 @@
 .description {
-    display: none;
+    overflow: hidden;
     position: relative;
     &__content {
         max-width: 600px;
         margin: 0 auto;
-        padding-top: 186px;
         padding: 186px 0 188px 0;
         &-text {
             font-weight: normal;
@@ -12,18 +11,101 @@
             line-height: 24px;
         }
     }
-    &__img-clip {
-        width: 207px;
-        height: 341px;
+    &__img {
         position: absolute;
-        left: 305px;
-        top: 86px;
-    }
-    &__img-notebook {
-        width: 461px;
-        height: 360px;
-        position: absolute;
-        top: 72px;
-        right: 139px;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 50px;
+        height: 10px;
+        img {
+            position: absolute;
+        }
+        &-clip {
+            width: 207px;
+            height: 341px;
+            left: -630px;
+            top: 86px;
+        }
+        &-notebook {
+            width: 461px;
+            height: 360px;
+            left: 390px;
+            top: 86px;
+        }
+        &-turned {
+            display: none;
+        }
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .description {
+        &__content {
+            padding: 126px 0 160px 0;
+        }
+        &__img {
+            &-clip {
+                left: -486px;
+                top: 51px;
+                width: 160px;
+                height: 293.33px;
+            }
+            &-notebook {
+                width: 308px;
+                height: 241px;
+                left: 376px;
+                top: 76px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .description {
+        &__content {
+            max-width: 464px;
+            padding: 83px 0 102px 0;
+        }
+        &__img {
+            &-clip {
+                left: -386px;
+                top: 64px;
+                width: 139px;
+                height: 228.98px;
+            }
+            &-notebook {
+                width: 240px;
+                height: 188px;
+                left: 296px;
+                top: 78px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .description {
+        &__content {
+            max-width: 288px;
+            padding: 40px 0 268px 0;
+        }
+        &__img {
+            &-clip {
+                display: none;
+            }
+            &-notebook {
+                width: 240px;
+                height: 188px;
+                left: -16px;
+                top: 389px;
+            }
+            &-turned {
+                display: block;
+                top: 341px;
+                left: -128px;
+            }
+        }
+    }
+}
+

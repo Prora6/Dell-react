@@ -1,5 +1,6 @@
 .list {
     display: none;
+    overflow: hidden;
     list-style-type:none;
     padding: 0;
     margin: 0;
@@ -48,8 +49,6 @@
                 }
         }
 
-
-
         &:first-child {
             .list__item-ticker {
                 width: 100%;
@@ -87,8 +86,6 @@
         }
 
 
-
-
         &:nth-child(2) {
             margin-bottom: 64px;
            .list__item-laptops {
@@ -107,8 +104,6 @@
         }
 
 
-
-
         &:nth-child(3) {
             margin-bottom: 40px;
            .list__item-work {
@@ -125,7 +120,6 @@
 
             }
         }
-
 
 
         &:nth-child(4) {
@@ -169,8 +163,6 @@
         }
 
 
-
-
         &:nth-child(6) {
             margin-bottom: 64px;
            .list__item-work {
@@ -194,7 +186,6 @@
         }
 
 
-
         &:nth-child(7) {
             margin-bottom: 88px;
             .list__item-work {
@@ -212,7 +203,10 @@
             }
         }
 
-
-
     }
+}
+
+
+@media screen and (max-width: 1279px) {
+
 }
