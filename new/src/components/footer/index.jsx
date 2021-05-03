@@ -10,7 +10,7 @@ class Footer extends React.Component {
                     <a href="" className="footer__content-link">
                         Лайфхакер
                     </a>
-                    <a href="" className="footer__content-link">
+                    <a href="" className="footer__content-partner">
                         Dell 
                     </a>
                     <p className="footer__content-text">© 2020</p>

@@ -36,7 +36,9 @@ class List extends React.Component {
                         <h2 className="information__title">СОЗВОНЫ И МЕССЕНДЖЕРЫ</h2>
                         <img src={Image} alt="" className="information__img"/>
                     </div>
-                    <img src={Pen} alt="" className="pen"/>
+                    <div className="list__item-img">
+                        <img src={Pen} alt="" className="pen"/>
+                    </div>
                     <div className="list__item-content">
                         <p>Большая часть моего рабочего дня проходит в Zoom и Google Meet. У Лайфхакера есть офис в Ульяновске, два года работала редакция в Москве, но в карантин мы решили её закрыть. Открывать не торопимся, ждём конца пандемии. Поэтому сейчас команда Лайфхакера — это около сотни человек, работающих из разных городов.</p>
                         <p>На прошлой неделе во время тестирования ноутбука <a href="" className="link">Dell XPS 13 9310</a> я провёл два десятка звонков: собеседования, планёрки, обсуждение стратегий. Веб-камера с четырьмя линзами передавала чёткую и яркую картинку. Мне понравилась технология шумоподавления — когда в помещении не хватает света, объектив ноутбука фиксирует это и повышает качество видео.</p>
@@ -107,16 +109,14 @@ class List extends React.Component {
                         <h2 className="information__title">ОТДЫХ</h2>
                         <img src={Relaxation} alt="" className="information__img"/>
                     </div>
-                    <img src={Coffe} alt="" className="note"/>
+                    <img src={Coffe} alt="" className="coffe"/>
                     <div className="list__item-content">
                         <p>После работы я решил посмотреть «Рика и Морти», чтобы отвлечься от дел. У экрана Dell XPS 13 9310 хорошая цветопередача и высокое качество изображения, смотреть любимый сериал было приятно. </p>
                         <p>Музыку в динамиках я включал только для проверки. Предпочитаю всегда использовать наушники, чтобы никому не мешать и отсекать все внешние шумы. Динамики для ноутбука такого небольшого размера показались очень громкими, на максимальном уровне я бы точно ничего не стал включать.</p>
                     </div>
                 </li>
                 <li className="list__item">
-                    <div className="list__item-work">
-                        <img src={Search} alt="" className="search"/>
-                    </div>
+                    <img src={Search} alt="" className="list__item-work"/>
                     <div className="list__item-information information">
                         <p className="information__text">21:00</p>
                         <h2 className="information__title">ВЫЕЗД В КОМАНДИРОВКУ</h2>
