@@ -1,5 +1,4 @@
 .header {
-    display: none;
     background: #B3DAF8;
     &__content {
         display: flex;
@@ -35,7 +34,8 @@
 @media screen and (max-width: 767px) {
     .header {
         .header__content {
-            max-width: 288px;
+            max-width: 282px;
+            // убрать ширину, сделать 100%, поставить падинги
             .header__social{
                 display: none;
             }

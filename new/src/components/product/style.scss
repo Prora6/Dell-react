@@ -1,12 +1,12 @@
 .product {
   position: relative;
-  height: 1256px;
+
   background: #b3daf8;
-  overflow: hidden;
   &__content {
     max-width: 600px;
     margin: 0 auto;
     padding-top: 56px;
+    padding-bottom: 566px;
     &-text {
       font-weight: normal;
       font-size: 16px;
@@ -38,7 +38,7 @@
   }
   &__laptop {
     position: absolute;
-    top: 690px;
+    top: 786px;
     left: 50%;
     transform: translate(-50%, 0px);
     .left_laptop {
@@ -91,7 +91,7 @@
       right: 504px;
     }
     &-water {
-      top: 1108px;
+      top: 1100px;
       left: 384px;
     }
   }
@@ -99,7 +99,9 @@
 
 @media screen and (max-width: 1279px) {
   .product {
-    height: 1186px;
+    &__content {
+      padding-bottom: 496px;
+    }
     &__laptop {
       top: 690px;
       .centre_laptop {
@@ -159,7 +161,7 @@
         }
       }
       &-water {
-        top: 1026px;
+        top: 1084px;
         left: 332px;
         .yellow {
           width: 297px;
@@ -172,9 +174,9 @@
 
 @media screen and (max-width: 1023px) {
     .product {
-        height: 1244px;
         &__content {
             max-width: 463px;
+            padding-bottom: 392px;
           }
         &__laptop {
             top: 870px;
@@ -234,7 +236,7 @@
             }
           }
           &-water {
-            top: 1122px;
+            top: 1152px;
             left: 262px;
             .yellow {
                 width: 252px;
@@ -247,9 +249,10 @@
 
 @media screen and (max-width: 767px) {
     .product {
-        height: 1530px;
+      height: 1420px;
         &__content {
             max-width: 288px;
+            padding-top: 32px;
           }
         &__laptop {
             top: 1266px;
@@ -268,11 +271,10 @@
           }
         }
         &__img {
-          &-building {
-            top: 71px;
-            right: 338px;
-          }
           &-picture {
+            display: none;
+          }
+          &-building {
             display: none;
           }
           &-sun {

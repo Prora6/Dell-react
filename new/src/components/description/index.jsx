@@ -23,5 +23,4 @@ class Description extends React.Component {
     }
 }
 
-//замнить падинги на марджины
   export default Description;
